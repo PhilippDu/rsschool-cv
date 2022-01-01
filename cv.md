@@ -1,4 +1,4 @@
-## **Project**: [CV#1. Markdown & Git](адрес "[Описание](https://philippdu.github.io/rsschool-cv/cv)")
+## **Project**: [CV#1. Markdown & Git](https://philippdu.github.io/rsschool-cv/cv)")
 ### **Philip Dudarenko Vadimovich**
 ****
 Belarus, Minsk
