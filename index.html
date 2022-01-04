@@ -8,6 +8,94 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <p>Hello World!</p>
+    <header>
+        <nav >
+            <ul class="container" id="menu">
+                <li><a href="#my_contacts">MY CONTACTS</a></li>
+                <li><a href="#about_me">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#code">SAMPLE CODE</a></li>
+                <li><a href="#projects">MY PROJECTS</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="content">
+            <div class="start">
+                <section class="section" id="start">
+                    <div>
+                        <h1>Philip Dudarenko</h1>
+                        <p>Student of front-end</p>
+                    </div>
+                    <img class="photo" src="my_photo.jpg" alt="Photo" >
+                </section>
+            </div>
+
+            <section class="section">
+                <h2 id="my_contacts">My contacts</h2>
+                <ul>
+                    <li class="loc"><b>Location:</b> Belarus, Minsk</li>
+                    <li class="loc"><b>E-mail:</b> iphilimosha@gmail.com</li>
+                    <li class="loc"><b>Discord:</b> Philip Dudarenko (@PhilippDU)</li>
+                    <li class="loc"><b>Telegram:</b> Philip_Du</li>
+            </section>
+
+            <section class="section">
+                <h2 id="about_me">About me</h2>
+                I am studying to be a front-end developer in <i>RS School</i>.<br>
+                For the last few years I have been working with cnc machines. 
+                At work, it was necessary to program ARM chips. 
+                It was a very interesting experience. 
+                <i>I really <b>enjoyed learning programming</b></i>.<br> 
+                Prior to this work, I had experience in website layout. 
+                I was engaged in the repair of digital equipment and <b>made a small website for my company</b>.<br> 
+                I have a <i>great desire to be engaged in <b>fron-end development</b>, it is very interesting and close to me</i>. 
+            </section>
+
+            <section class="section">
+                <h2 id="skills">My skills</h2>
+                <ul style="padding-left: 30px;">
+                    <li>I studied at the university <b>C++</b>, C#</b>;</li>
+                    <li>Studied independently <b>HTML</b>, <b>CSS</b>;</li>
+                    <li>Have <b>Photoshop</b>, <b>Corel Draw</b> knowledge;</li>
+                    <li>I know design programs <b>AtoCAD</b>, <b>Altium Designer</b> and some <b>Solidworks</b>.</li>
+                </ul>
+            </section>
+            
+            <section class="section">
+                <h2 id="code">Sample code</h2>
+                <pre>
+                    <code>
+    const assert = require("chai").assert;
+                
+    describe("Multiply", () => {
+        it("fixed tests", () => {<
+            assert.strictEqual(multiply(1,1), 1);
+            assert.strictEqual(multiply(2,1), 2);
+            assert.strictEqual(multiply(2,2), 4);
+            assert.strictEqual(multiply(3,5), 15);
+        });
+    });
+                    </code>
+                </pre>
+            </section>
+
+            <section class="section">
+                <h2 id="projects">My projects</h2>
+                <ul>
+                    <li class="loc"><a href="https://PhilippDu.github.io/rsschool-cv/cv">CV#1. Markdown & Git</a></li>
+                    <li class="loc"><a href="https://PhilippDu.github.io/rsschool-cv/">My CV</a></li>
+
+            </section>
+
+            <br>
+            <br> 
+        </div>
+    </main>
+    <footer>
+        <div class="container">
+           <span>2022</span> 
+        </div>
+    </footer>
 </body>
 </html>
