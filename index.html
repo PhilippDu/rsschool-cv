@@ -1,2 +1,119 @@
 <!DOCTYPE html>
-MY CV
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Philipp Dudarenko</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav >
+            <ul class="container" id="menu">
+                <li><a href="#my_contacts">MY CONTACTS</a></li>
+                <li><a href="#about_me">ABOUT ME</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#code">SAMPLE CODE</a></li>
+                <li><a href="#projects">MY PROJECTS</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container" id="content">
+            <div class="start">
+                <section class="section" id="start">
+                    <div>
+                        <h1>Philipp Dudarenko</h1>
+                        <h4>Student of front-end</h4>
+                    </div>
+                    <img class="photo" src="my_photo.jpg" alt="Photo" >
+                </section>
+            </div>
+
+            <section class="section">
+                <h2 id="my_contacts">My contacts</h2>
+                <ul>
+                    <li class="loc"><b>Location:</b> Belarus, Minsk</li>
+                    <li class="loc"><b>E-mail:</b> iphilimosha@gmail.com</li>
+                    <li class="loc"><b>Discord:</b> Philipp Dudarenko (@PhilippDU)</li>
+                    <li class="loc"><b>Telegram:</b> @lemonchel</li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 id="about_me">About me</h2>
+                I am studying to be a front-end developer in <i>RS School</i>.<br>
+                For the last few years I have been working with cnc machines. 
+                At work, it was necessary to program ARM chips. 
+                It was a very interesting experience. 
+                <i>I really <b>enjoyed learning programming</b></i>.<br> 
+                Prior to this work, I had experience in website layout. 
+                I was engaged in the repair of digital equipment and <b>made a small website for my company</b>.<br> 
+                I have a <i>great desire to be engaged in <b>fron-end development</b>, it is very interesting and close to me</i>. 
+            </section>
+
+            <section class="section">
+                <h2 id="skills">My skills</h2>
+                <ul style="padding-left: 30px;">
+                    <li>I studied at the university <b>C++</b>, <b>C#</b>;</li>
+                    <li>Studied independently <b>HTML</b>, <b>CSS</b>;</li>
+                    <li>Have <b>Photoshop</b>, <b>Corel Draw</b> knowledge;</li>
+                    <li>I know design programs <b>AtoCAD</b>, <b>Altium Designer</b> and some <b>Solidworks</b>.</li>
+                </ul>
+            </section>
+            
+            <section class="section">
+                <h2 id="code">Sample code</h2>
+                <pre>
+                    <code>
+    const assert = require("chai").assert;
+                
+    describe("Multiply", () => {
+        it("fixed tests", () => {
+            assert.strictEqual(multiply(1,1), 1);
+            assert.strictEqual(multiply(2,1), 2);
+            assert.strictEqual(multiply(2,2), 4);
+            assert.strictEqual(multiply(3,5), 15);
+        });
+    });
+                    </code>
+                </pre>
+            </section>
+
+            <section class="section">
+                <h2 id="projects">My projects</h2>
+                <ul>
+                    <li class="loc"><a href="https://PhilippDu.github.io/rsschool-cv/cv">CV#1. Markdown & Git</a></li>
+                    <li class="loc"><a href="https://PhilippDu.github.io/rsschool-cv/">My CV</a></li>
+                </ul>
+            </section>
+
+            <section class="section">
+                <h2 id="education">Education</h2>
+                <b>BSUIR</b> 2008-2015 <b>Faculty:</b>Faculty of Distance Learning; <b>Speciality:</b> Computing machines, systems and networks; 
+                <b>Qualification:</b> Systems Engineer.<br>
+                <h4>Courses:</h4>
+                <ol>
+                    <li>Programming "<b>C</b>" 2008 -2009 Center for training technologies "<b>BELHARD</b>"</li>
+                    <li>Programming "<b>C++</b>" 2009 -2010 Center for training technologies "<b>BELHARD</b>"</li>
+                    <li>Programming "<b>C#</b>" 2010 -2011 Center for training technologies "<b>BELHARD</b>"</li>
+                </ol>
+                <h4>Level of english</h4>
+                <p>А2</p>
+            </section>
+
+            <br>
+            <br> 
+        </div>
+    </main>
+    <footer>
+        <div class="container" id="footer">
+            <div style="padding-left: 50px;"><a href="https://github.com/PhilippDu"><img class="github" src="pngegg.png" alt="GitHub" ></a></div>
+            <div><span>2022</span></div>
+            <div style="padding-right: 50px;"><a href="https://rs.school/js/"><img class="github" src="rs_school_js.svg" alt="RS_School" ></a></div>
+        </div>
+    </footer>
+</body>
+</html>
