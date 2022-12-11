@@ -25,16 +25,15 @@ I have a *great desire to be engaged in **fron-end development***, it is *very i
 ****
 ### **Sample code**
 ```
-const assert = require("chai").assert;
+function rgb(r, g, b){
+	return toHex(r)+toHex(g)+toHex(b);
+}
 
-describe("Multiply", () => {
-  it("fixed tests", () => {
-    assert.strictEqual(multiply(1,1), 1);
-    assert.strictEqual(multiply(2,1), 2);
-    assert.strictEqual(multiply(2,2), 4);
-    assert.strictEqual(multiply(3,5), 15);   
-  });
-});
+function toHex(d) {
+    if(d < 0 ) {return "00";}
+    if(d > 255 ) {return "FF";}
+    return  ("0"+(Number(d).toString(16))).slice(-2).toUpperCase()
+};
 ```
 ****
 ### **Experience**
